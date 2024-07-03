@@ -3,6 +3,20 @@ body {
   padding: 30px;
 }
 
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+a {
+  color: black;
+}
+
 .container {
   
   background-color: cornsilk;
@@ -27,16 +41,9 @@ body {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
-
-img {
-  border-radius: 8px;
-}
-
-a {
-  color: black;
+@media (max-width: 600px) {
+  .layout {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
